@@ -1,0 +1,19 @@
+{
+  "name": "html_intro",
+  "version": "1.0.0",
+  "description": "Primeiro Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreFASousa/HTML_intro.git"
+  },
+  "author": "AndreFilipeSousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreFASousa/HTML_intro/issues"
+  },
+  "homepage": "https://github.com/AndreFASousa/HTML_intro#readme"
+}
