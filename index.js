@@ -1,14 +1,15 @@
 const express = require('express')
+const path = require('path')
 const app = express()
  
 app.use(express.static('./public'))
 
 app.get('/', (req, res) => {
-   res.json('Hello World')
+   res.sendFile(path.join(__dirname, 'public/Sign-in.html'))
 })
 
 app.get('/:nome', (req, res) => {
-    (res.send('Hello ' + req.params.nome)
+    (res.send('Ehehehehe ' + req.params.nome)
  )})
 
 const port = 3000
